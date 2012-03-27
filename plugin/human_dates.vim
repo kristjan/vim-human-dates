@@ -26,5 +26,3 @@ function! s:dateFromLongEpoch()
 endfunc
 
 command DateFromLongEpoch :call <SID>dateFromLongEpoch()
-
-map <leader>j :DateFromLongEpoch<CR>
